@@ -1,5 +1,8 @@
 # HC-SR04-Library
-![GitHub Actions CI](https://github.com/Zaptrons/HC%20SR04%20Library/workflows/CI/badge.svg)
+.
+
+![Arduino Library Badge](https://img.shields.io/badge/Arduino%20Library-HC%20SR04%20Library-blue.svg)
+
 An Arduino library for the HC-SR04 ultrasonic distance sensor, providing a simple and efficient way to measure distance.
 
 ---
