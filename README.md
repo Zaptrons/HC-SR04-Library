@@ -1,39 +1,33 @@
 # HC-SR04-Library
-
+![GitHub Actions CI](https://github.com/Zaptrons/HC%20SR04%20Library/workflows/CI/badge.svg)
 An Arduino library for the HC-SR04 ultrasonic distance sensor, providing a simple and efficient way to measure distance.
 
-## Features
+---
 
--   Easy-to-use constructor.
--   Accurate distance measurement in centimeters.
--   Accurate distance measurement in inches.
--   Robust and simple code structure.
+## Features
+- Easy-to-use constructor.
+- Accurate distance measurement in centimeters.
+- Accurate distance measurement in inches.
+- Robust and simple code structure.
+
+---
 
 ## Installation
 
 ### 1. Using the Arduino Library Manager
-
 1.  Open the Arduino IDE.
 2.  Go to `Sketch > Include Library > Manage Libraries...`.
 3.  Search for "HC-SR04-Library".
 4.  Click on "Install".
 
 ### 2. Installing in PlatformIO
-
 1.  Open your project's `platformio.ini` file.
-2.  In the `[env]` section for your board, find the `lib_deps` line and add the library's GitHub address.
+2.  In the `[env]` section, add the library's name to the `lib_deps` line.
 
-    ```ini
-    [env:uno]
-    platform = atmelavr
-    board = uno
-    framework = arduino
-    lib_deps =
-        [https://github.com/Zaptrons/HC-SR04-Library.git#v1.0.0](https://github.com/Zaptrons/HC-SR04-Library.git#v1.0.0)
-    ```
-
-    *Note:* Replace `YourUsername` with your GitHub username and `v1.0.0` with your desired version tag.
-
+```ini
+lib_deps =
+    Zaptrons/HC-SR04-Library
+```
 ### 3. Manual Installation
 
 1.  Download the repository as a ZIP file.

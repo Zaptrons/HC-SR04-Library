@@ -11,11 +11,11 @@
     "platformio"
   ],
   "authors": {
-    "name": "Zap",
+    "name": "Hadi Norouzi",
     "email": "zaptrons.dev@gmail.com"
   },
   "license": "MIT",
-  "frameworks": "arduino",
+  "frameworks": ["arduino","platformio"],
   "platforms": [
     "atmelavr",
     "espressif8266",
